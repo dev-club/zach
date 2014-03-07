@@ -1,0 +1,35 @@
+h1 {
+    text-align:center;
+    }
+
+#tabs {
+    overflow: hidden;
+    }
+    
+#tabs li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background: #D8D8D8;
+    }   
+    
+#tabs li a {
+    display: block;
+    padding: 2px 5px;
+    border: 2px solid #ccc;
+    text-align: center;
+    }      
+    
+.tab-section {
+    padding: 10px;
+    border: 2px solid #ccc;
+    background: #666;
+    color: #ccc;
+    }
+    
+#tabs li a.current {
+    background: #666;
+    color: #ccc;
+    }            
